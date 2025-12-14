@@ -1,0 +1,178 @@
+import type { Car } from './types';
+
+export const cars: Car[] = [
+  {
+    id: 1,
+    name: 'Toyota Prado TX',
+    price: 8500000,
+    image: '/images/car1.jpg',
+    description: 'Premium luxury SUV with excellent off-road capabilities and leather interior - Japanese import with low mileage',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2020,
+    mileage: 45000,
+    engineCapacity: 2755,
+    transmission: 'Automatic',
+    driveType: '4WD',
+    fuelType: 'Diesel',
+    color: 'White',
+    steering: 'Right',
+    grade: '4.5',
+    chassisNumber: 'GDJ150-0000001',
+    importYear: 2023
+  },
+  {
+    id: 2,
+    name: 'Nissan Patrol',
+    price: 7200000,
+    image: '/images/car2.jpg',
+    description: 'Legendary 4x4 SUV perfect for Kenyan terrain and safari adventures',
+    category: 'SUV',
+    location: 'Mombasa',
+    year: 2019,
+    mileage: 62000
+  },
+  {
+    id: 3,
+    name: 'Mercedes-Benz C-Class',
+    price: 5800000,
+    image: '/images/car3.jpg',
+    description: 'Executive sedan with premium comfort and advanced safety features',
+    category: 'Sedan',
+    location: 'Nairobi',
+    year: 2021,
+    mileage: 28000
+  },
+  {
+    id: 4,
+    name: 'Toyota Hilux',
+    price: 3200000,
+    image: '/images/car4.jpg',
+    description: 'Reliable pickup truck ideal for commercial and personal use',
+    category: 'Pickup',
+    location: 'Eldoret',
+    year: 2022,
+    mileage: 15000
+  },
+  {
+    id: 5,
+    name: 'BMW X6',
+    price: 9500000,
+    image: '/images/car5.jpg',
+    description: 'Sports Activity Coupe combining luxury with SUV practicality',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2020,
+    mileage: 38000
+  },
+  {
+    id: 6,
+    name: 'Honda CR-V',
+    price: 4200000,
+    image: '/images/car6.jpg',
+    description: 'Compact SUV with excellent fuel economy and family-friendly features',
+    category: 'SUV',
+    location: 'Kisumu',
+    year: 2021,
+    mileage: 32000
+  },
+  {
+    id: 7,
+    name: 'Audi Q7',
+    price: 8800000,
+    image: '/images/car7.jpg',
+    description: 'Full-size luxury SUV with cutting-edge technology and comfort',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2019,
+    mileage: 55000
+  },
+  {
+    id: 8,
+    name: 'Toyota Corolla',
+    price: 1800000,
+    image: '/images/car8.jpg',
+    description: 'Affordable and reliable sedan perfect for daily commuting',
+    category: 'Sedan',
+    location: 'Nakuru',
+    year: 2022,
+    mileage: 12000
+  },
+  {
+    id: 9,
+    name: 'Land Rover Discovery',
+    price: 12000000,
+    image: '/images/car9.jpg',
+    description: 'Ultimate luxury SUV with unmatched off-road performance',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2020,
+    mileage: 25000
+  },
+  {
+    id: 10,
+    name: 'Mitsubishi Pajero',
+    price: 4500000,
+    image: '/images/car10.jpg',
+    description: 'Reliable off-road SUV perfect for Kenyan terrain',
+    category: 'SUV',
+    location: 'Nakuru',
+    year: 2018,
+    mileage: 80000
+  },
+  {
+    id: 11,
+    name: 'Subaru Forester',
+    price: 3800000,
+    image: '/images/car11.jpg',
+    description: 'Compact SUV with excellent safety features and AWD',
+    category: 'SUV',
+    location: 'Eldoret',
+    year: 2021,
+    mileage: 35000
+  },
+  {
+    id: 12,
+    name: 'Volkswagen Touareg',
+    price: 6500000,
+    image: '/images/car12.jpg',
+    description: 'German engineering meets luxury SUV performance',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2019,
+    mileage: 45000
+  },
+  {
+    id: 13,
+    name: 'Jeep Grand Cherokee',
+    price: 7200000,
+    image: '/images/car13.jpg',
+    description: 'Iconic American SUV with legendary off-road capability',
+    category: 'SUV',
+    location: 'Mombasa',
+    year: 2020,
+    mileage: 30000
+  },
+  {
+    id: 14,
+    name: 'Ford Ranger',
+    price: 2800000,
+    image: '/images/car14.jpg',
+    description: 'Tough and reliable pickup truck for work and play',
+    category: 'Pickup',
+    location: 'Kisumu',
+    year: 2022,
+    mileage: 20000
+  },
+  {
+    id: 15,
+    name: 'Mazda CX-9',
+    price: 5200000,
+    image: '/images/car15.jpg',
+    description: 'Spacious family SUV with premium interior and handling',
+    category: 'SUV',
+    location: 'Nairobi',
+    year: 2021,
+    mileage: 28000
+  }
+];
